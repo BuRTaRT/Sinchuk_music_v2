@@ -1,0 +1,75 @@
+.concerts-body {
+    margin-bottom: 200px;
+}
+
+.concerts-header {
+    display: flex;
+    color: white;
+    font-size: 40px;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.content-block {
+    margin-top: 30px;
+    color: white;
+}
+
+.content-header {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+}
+.concerts-header-text{
+    display: none;
+}
+.content-event {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-top: 1px solid gray;
+
+
+}
+
+.content-event:last-child {
+    border-bottom: 1px solid gray;
+}
+
+.content-event:nth-child(2n) {
+    background-color: #181818;
+}
+
+.event-date {
+    display: flex;
+    font-size: 46px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.month {
+    font-size: 16px;
+}
+
+.event-btn {
+    padding: 12px 50px;
+    border: 2px solid #F0B000;
+    cursor: pointer;
+}
+
+.event-btn:hover {
+    background-color: #F0B000;
+}
+.event-name,.event-date,.event-location,.event-btn{
+    margin: 10px 0;
+}
+@media (min-width:768px) {
+    .content-event{
+        flex-direction: row;
+    }
+    .concerts-header-text{
+        display: block;
+    }
+}

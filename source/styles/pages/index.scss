@@ -1,0 +1,52 @@
+html {
+    background-color: black;
+}
+
+.index-body {
+    background-image: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+}
+
+.wrapper {
+    height: 100%;
+}
+
+
+.index-btn {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-47px, -26px);
+    color: white;
+    border: 2px solid white;
+    padding: 15px 35px;
+    display: none;
+}
+
+.index-title {
+    margin-top: 0px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-113px);
+    font-size: 35px;
+    white-space: nowrap;
+}
+
+@media (min-width:768px) {
+    .index-title {
+        font-size: 50px;
+        transform: translate(-150px, -100px)
+    }
+
+    .index-btn {
+        display: block;
+        cursor: pointer;
+    }
+}

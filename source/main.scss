@@ -1,6 +1,15 @@
-.container{
-  width: 400px;
-  height: 400px;
-  background-color: yellow;
-  margin: 0 auto;
-} 
+@import "../node_modules/normalize.scss/normalize";
+@import "../node_modules/font-awesome/scss/font-awesome";
+
+
+
+@import "styles/common/nav";
+
+@import "styles/pages/index";
+@import "styles/pages/music";
+@import "styles/pages/video";
+@import "styles/pages/concerts";
+@import "styles/pages/bio";
+@import "styles/sections/albums";
+
+    

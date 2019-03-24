@@ -1,0 +1,116 @@
+.album {
+    border: 1px solid white;
+    padding: 10px 20px;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.subscr-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.songs-scroll {
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+.buy-left {
+    text-align: left;
+}
+
+.subscr-right {
+}
+
+.img {
+    object-fit: cover;
+    width: 100%;
+    margin: 0 auto
+}
+
+.social-share {
+    display: flex;
+    font-size: 22px;
+    justify-content: space-around;
+}
+
+.song-name {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    font-size: 22px;
+    font-family: sans-serif;
+    white-space: nowrap;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+.music-controller {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    margin-top: 20px;
+    white-space: nowrap;
+    padding: 15px 0px;
+}
+
+.btn-next,
+.btn-prev,
+.button {
+    margin: 0 3px;
+    font-size: 20px;
+}
+
+.progress-line {
+    height: 5px;
+    width: 60%;
+    background-color: rgba(255, 255, 255, .2);
+    cursor: pointer;
+    margin-left: 10px;
+    position: relative;
+}
+
+.progress {
+    height: 5px;
+    width: 0px;
+    background-color: #F0B000;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.time {
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+.duration {
+    font-size: 12px;
+    display: inline-block;
+}
+
+.song-ul {
+    list-style: none;
+    text-align: left;
+    padding: 0;
+}
+
+.song-list {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-top: 1px gray solid;
+    font: normal normal normal 14px "courier new", courier-ps-w01, courier-ps-w02, courier-ps-w10, monospace;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.num {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.track-length {
+    float: right;
+}

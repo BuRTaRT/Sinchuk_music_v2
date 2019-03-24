@@ -1,0 +1,87 @@
+#bio-body {
+    color: white;
+}
+
+.bio-header {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+    text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px
+}
+
+.bio-img-block {
+    margin-bottom: 5px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+
+.bio-img {
+    max-width: 100%;
+    text-align: center;
+}
+
+.fifty {
+    max-width: 50%;
+}
+
+.no-wrap {
+    white-space: nowrap;
+}
+
+.comment {
+    font-size: 26px;
+    margin-top: 25px;
+}
+
+.comment span {
+    display: block;
+
+}
+
+.wiki-link {
+    display: block;
+    margin-top: 30px;
+    text-decoration: underline;
+    color: #4682B4;
+    font-size: 26px;
+    text-align: center;
+
+}
+
+.biography-header {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.biography-text {
+    max-height: 4660px;
+    margin-top: 10px;
+    font-size: 21px;
+    letter-spacing: 1.4px;
+    overflow: hidden;
+}
+
+.discography {
+    margin-top: 50px;
+}
+
+.discography-header {
+    margin-left: 25px;
+    font-size: 34px;
+    text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
+}
+
+.discography-list {
+    letter-spacing: 2px;
+    font-size: 20px;
+
+    & li {
+        margin: 5px 0;
+    }
+}
+
+.bio-img-block:last-child {
+    margin-bottom: 100px;
+}
