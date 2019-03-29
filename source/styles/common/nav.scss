@@ -16,7 +16,7 @@ a {
     font-size: 26px;
     display: flex;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, .9);
+    background-color: rgba(0, 0, 0, .98);
     width: 50%;
     margin: 0 auto;
     position: fixed;
@@ -26,8 +26,9 @@ a {
     text-align: center;
     display: none;
     height: 100%;
-    padding-top: 100px;
+    padding-top: 60px;
     z-index: 2;
+    overflow-y: auto;
 }
 
 .menu-item {
@@ -43,6 +44,14 @@ a {
 .site-advertisment,
 .social,
 .mus-btn.mus-btn__play {
+    display: none;
+}
+
+.line-break {
+    width: 100%;
+}
+
+.nav-footer {
     display: none;
 }
 
@@ -71,7 +80,26 @@ a {
         left: 0;
         min-height: 85px;
         background-color: rgb(24, 24, 24);
-        align-items: center;
+        overflow-y: hidden;
+        flex-wrap: wrap;
+
+    }
+
+    .nav-footer {
+        display: block;
+        background-color: rgb(65, 65, 65);
+        color: rgb(111, 111, 111);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        font-size: 11px;
+        align-self: center;
+    }
+
+    .menu-wrapper {
+        display: flex;
+        align-items: flex-end;
+
 
     }
 
@@ -179,7 +207,8 @@ a {
     color: #395498;
     cursor: pointer;
 }
-.fa-instagram:hover{
+
+.fa-instagram:hover {
     color: blueviolet;
     cursor: pointer;
 }
