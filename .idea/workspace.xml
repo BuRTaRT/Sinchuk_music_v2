@@ -4,7 +4,6 @@
     <list default="true" id="49469c26-92b5-4ed8-b44e-bc014db274d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/build/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/styles/global/globalStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/global/globalStyles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/pages/music.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/pages/music.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -79,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/styles/global/globalStyles.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="144">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -242,12 +241,12 @@
       <workItem from="1556367056880" duration="4223000" />
       <workItem from="1556621466408" duration="627000" />
       <workItem from="1557170252466" duration="26806000" />
-      <workItem from="1557282539305" duration="63486000" />
+      <workItem from="1557282539305" duration="63785000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95142000" />
+    <option name="totallyTimeSpent" value="95441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -618,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/global/globalStyles.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="144">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
         </state>
       </provider>
     </entry>
