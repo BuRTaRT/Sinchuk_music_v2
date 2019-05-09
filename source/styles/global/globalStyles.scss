@@ -1,16 +1,19 @@
 * {
   box-sizing: border-box;
 }
+.container{
+  padding-bottom: 100px;
+}
 body {
   background-image: url(images/bg.jpg);
   background-attachment: fixed;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
-  height: auto;
   background-position: center center;
   color: white;
-  padding-bottom: 100px;
   overflow-x: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
 .visible {
