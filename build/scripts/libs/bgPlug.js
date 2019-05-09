@@ -46,7 +46,7 @@
             if (s.settings.poster) {
                 e += ' poster="' + s.settings.poster + '" '
             }
-            e += 'style="display:none;position:fixed;top:0;z-index:-1000;left:0;bottom:0;right:0;width:100%;height:100%;">';
+            e += 'style="display:none;position:fixed;top:0;z-index:0;left:0;bottom:0;right:0;width:100%;height:100%;">';
             for (var l = 0; l < s.settings.types.length; l++) {
                 e += '<source src="' + s.settings.path + s.settings.filename + "." + s.settings.types[l] + '" type="video/' + s.settings.types[l] + '" />'
             }
