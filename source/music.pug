@@ -7,14 +7,21 @@ html(lang='eng')
     link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous")
     link(rel="stylesheet" href="main.min.css")
     link(rel="stylesheet" href="grid.min.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
+
     title Music
   body.music-body
+   #preloader
+          .cssload-loader
+              .cssload-inner.cssload-one
+              .cssload-inner.cssload-two
+              .cssload-inner.cssload-three
    .container
     .row.music-header.justify-content-center
-      p.header-text.col-md-3.d-none.d-md-block Albums
-      p.header-text.col-md-3.col-sm-12 MUSIC
-      p.header-text.col-md-3.d-none.d-md-block Songs
-    .row
+      p.header-text.header-albums.col-md-3.d-none.d-md-block Albums
+      p.header-text.header-music.col-md-3.col-sm-12 MUSIC
+      p.header-text.header-songs.col-md-3.d-none.d-md-block Songs
+    .row.justify-content-center
      .col-12.col-md-7.col-lg-7
       include templates/music-album
       include templates/music-album2
@@ -25,6 +32,7 @@ html(lang='eng')
    include templates/nav
    
    script(src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js")
-   script(src="scripts/backgroundVid.js")
-   script(src="scripts/audio-scripts.js")
-   script(src="scripts/nav/nav.js")
+   script(src="scripts/pages/audio/audioPageScripts.js")
+   script(src="scripts/libs/anime.min.js")
+   script(src="scripts/pages/audio/audioAnimeAnimations.js")
+   script(src="scripts/common/preloader.js")

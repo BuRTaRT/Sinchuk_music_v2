@@ -8,14 +8,19 @@ html(lang='eng')
     link(rel="stylesheet" href="main.min.css")
     link(rel="stylesheet" href="grid.min.css")
   body.concerts-body
-   
+   #preloader
+    .cssload-loader
+     .cssload-inner.cssload-one
+     .cssload-inner.cssload-two
+     .cssload-inner.cssload-three
    #wrapper.wrapper
+
     include templates/nav
     .container
      .concerts-header
-      .concerts-header-text Events
+      .concerts-header-text.concerts-events Events
       .concerts-header-text-afisha AFISHA
-      .concerts-header-text Concerts
+      .concerts-header-text.concerts-concerts Concerts
      .row.content-block
       .col-sm-12.col-md-10.m-auto
        .content-header Предстоящие концерты / местные даты
@@ -43,13 +48,11 @@ html(lang='eng')
         .event-name Galaxy PARTY
         .event-location Lviv, Ukraine
         .event-btn Пойду
-      
-    
-     
-  
-    
-  
+
    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
-   script(src="scripts/jquery.tubular.1.0.js")
-   script(src="scripts/backgroundVid.js")
-   script(src="scripts/nav/nav.js") 
+   script(src="scripts/libs/bgPlug.js")
+   script(src="scripts/common/bgVidOptions.js")
+   script(src="scripts/nav/nav.js")
+   script(src="scripts/common/preloader.js")
+   script(src="scripts/libs/anime.min.js")
+   script(src="scripts/pages/concerts/concertsAnimeAnimations.js")

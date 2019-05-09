@@ -7,10 +7,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="main.min.css">
     <link rel="stylesheet" href="grid.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
     <title>Sinchuk</title>
   </head>
   <body class="index-body">
     <div class="wrapper" id="wrapper">
+      <div id="preloader">
+        <div class="cssload-loader">
+          <div class="cssload-inner cssload-one"></div>
+          <div class="cssload-inner cssload-two"></div>
+          <div class="cssload-inner cssload-three"></div>
+        </div>
+      </div>
       <div class="menu-block">
         <div class="menu-wrapper">
           <div class="site-advertisment">SLAVA SINCHUK
@@ -20,17 +28,17 @@
           <div class="mus-btn mus-btn__play">
             <audio src="music/heart/song0.mp3" id="bgAudio"></audio>
           </div>
-          <nav class="nav"><a class="menu-item" href="index.html">Home</a><a class="menu-item" href="music.html">Music</a><a class="menu-item" href="video.html">Video</a><a class="menu-item" href="concerts.html">Concerts</a><a class="menu-item" href="bio.html">Bio</a><a class="menu-item">Contacts</a></nav>
+          <nav class="nav"><a class="menu-item" href="index.html">Home</a><a class="menu-item" href="music.html">Music</a><a class="menu-item" href="video.html">Video</a><a class="menu-item" href="concerts.html">Concerts</a><a class="menu-item" href="bio.html">Bio</a><a class="menu-item" href="contacts.html">Contacts</a></nav>
           <div class="social"><a class="social-link"><i class="fab fa-youtube"></i></a><a class="social-link"><i class="fab fa-facebook-f"></i></a><a class="social-link"><i class="fab fa-instagram"></i></a></div>
         </div>
         <div class="line-break"></div>
-        <div class="nav-footer">2019</div>
-      </div><i class="fas fa-bars" id="bar-toggle"></i><a class="index-btn" href="music.html">Music</a>
+        <div class="nav-footer">© 2017 GALAXY</div>
+      </div><i class="fas fa-bars" id="bar-toggle"></i>
+      <script src="scripts/nav/nav.js"></script><a class="index-btn" href="music.html">Music</a>
       <h1 class="index-title">Slava Sinchuk</h1>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-    <script src="scripts/jquery.tubular.1.0.js"></script>
-    <script src="scripts/backgroundVid.js"></script>
-    <script src="scripts/nav/nav.js"> </script>
+    <script src="scripts/libs/bgPlug.js"></script>
+    <script src="scripts/common/bgVidOptions.js"></script>
+    <script src="scripts/common/preloader.js"></script>
   </body>
 </html>

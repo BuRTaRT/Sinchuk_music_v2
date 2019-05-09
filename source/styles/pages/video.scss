@@ -1,112 +1,140 @@
-.music-header {
-    text-align: center;
-    color: white;
-    text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px, rgba(0, 0, 0, 0.6) -1px -1px 1px;
-}
+
 
 .video-body {
-    padding-bottom: 100px;
+  padding-bottom: 80px;
 }
 
 .video-block {
-    background-color: #181818;
-    padding: 7%;
-
+  background-color: #181818;
+  padding: 2% 6%;
+  padding-bottom: 7%;
 }
 
 .thumb-wrap {
-    position: relative;
-    padding-bottom: 56.25%;
-    /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
-    padding-top: 30px;
-    height: 0;
-    overflow: hidden;
+  position: relative;
+  padding-bottom: 56.25%;
+  /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+  padding-top: 10px;
+  height: 0;
+  overflow: hidden;
 }
 
 .thumb-wrap iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 .search {
-    background-color: transparent;
-    color: white;
-    padding: 8px;
-    border: 0px solid transparent;
-    outline: 0;
-    font-family: monospace;
-    font-size: 20px;
-    margin:15px 0;
-    width: 100%;
-    
+  background-color: transparent;
+  color: white;
+  padding: 8px;
+  border: 0px solid transparent;
+  outline: 0;
+  font-family: monospace;
+  font-size: 20px;
+  margin: 15px 0;
+  width: 100%;
 }
 
 .search:focus {
-    background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
-.list-item {
-    min-height: 200px;
-    width: 200px;
-    margin: 0 5px;
-    position: relative;
+.list-item,
+.list-item2 {
+  margin: 0 5px;
+  position: relative;
 }
 
-.slick-img {
-    height: auto;
-    position: relative;
-    width: 100%;
-    z-index: 1;
+.slick-img,
+.slick-img2 {
+  height: auto;
+  position: relative;
+  width: 100%;
+  z-index: 1;
 }
 
-.z-hover {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
-    cursor: pointer;
-    z-index: 0;
-    
-} 
+.z-hover,
+.z-hover2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 0;
+}
 .round {
-    height: 45px;
-    width: 45px;
-    border: 2px solid white;
-    border-radius: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -22.5px;
-    margin-top: -22.5px;
+  height: 45px;
+  width: 45px;
+  border: 2px solid white;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -22.5px;
+  margin-top: -22.5px;
 }
 .round::before {
-    content: "";
-    position:absolute;
-    border: 10px solid transparent;
-    border-left: 17px solid white;
-    top: 10px;
-    left: 15px;
+  content: "";
+  position: absolute;
+  border: 10px solid transparent;
+  border-left: 17px solid white;
+  top: 10px;
+  left: 15px;
 }
 .video-song-name {
-    color: white;
-    text-align: left;
-    font-size: 14px;
-    white-space: normal;
-    font-family: monospace;
-    overflow: hidden;
+  color: white;
+  text-align: left;
+  font-size: 14px;
+  white-space: normal;
+  font-family: monospace;
+  overflow: hidden;
 }
 .video-length {
-    font-size: 14px;
+  font-size: 14px;
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding-left: 10px;
+  padding-right: 10px;
+  bottom: 0px;
+  left: 0px;
+}
+.video-block {
+  margin-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+  .slick-prev {
     position: absolute;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding-left: 10px;
-    padding-right: 10px;
-    bottom: 0px;
-    left: 0px;
+    top: 95%;
+    left: 25px;
+    z-index: 1000;
+    width: 50px;
+  }
+  .slick-arrow::before {
+    font-family: Arial;
+    font-size: 45px;
+  }
+  .slick-next {
+    width: 50px;
+    position: absolute;
+    top: 95%;
+    right: 25px;
+    z-index: 1000;
+  }
+  .slick-arrow::after {
+    font-family: Arial;
+    font-size: 45px;
+  }
+}
+.video-title {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
 }

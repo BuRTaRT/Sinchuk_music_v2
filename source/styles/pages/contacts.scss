@@ -1,0 +1,66 @@
+.contacts-body{
+  background-image: url(images/bg.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
+  padding-bottom: 120px;
+}
+.contacts-header{
+  font-size: 42px;
+  margin:0 auto;
+  text-align: center;
+  padding: 30px 30px;
+}
+.hor-line{
+  width: 300px;
+  height: 1px;
+  background-color: white;
+  margin: 0 auto;
+}
+.contacts-txt{
+font-size: 22px;
+}
+.flex-wrap{
+  display: flex;
+}
+.flex-wrap p{
+  align-self: flex-start;
+  margin-top: 0px;
+}
+.contacts-txt i{
+  margin-left: 15px;
+}
+.numbers{
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+.vid-container{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border-radius:1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.vid-container p{
+  color: white;
+  position: absolute;
+  z-index: 500;
+  top: 107px;
+  left: 82px;
+}
+.contacts-vid{
+  position: absolute;
+  height: 100%;
+  width: 200%;
+  top: 0;
+  left: -128px;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}

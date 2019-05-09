@@ -3,7 +3,9 @@
 }
 
 .concerts-header {
+    margin: 0 auto;
     display: flex;
+    width: 50%;
     color: white;
     font-size: 40px;
     justify-content: space-around;
@@ -21,6 +23,8 @@
 }
 .concerts-header-text{
     display: none;
+    text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px,
+    rgba(0, 0, 0, 0.6) -1px -1px 1px;
 }
 .content-event {
     justify-content: space-between;

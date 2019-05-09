@@ -8,6 +8,11 @@ html(lang='eng')
     link(rel="stylesheet" href="main.min.css")
     link(rel="stylesheet" href="grid.min.css")
   body#bio-body
+   #preloader
+    .cssload-loader
+     .cssload-inner.cssload-one
+     .cssload-inner.cssload-two
+     .cssload-inner.cssload-three
    #wrapper.wrapper
     .container
      include templates/nav
@@ -58,8 +63,7 @@ html(lang='eng')
         img(src="img/slava14.jpg" alt="").bio-img
         .bio-description Слава Синчук и Тим (Риппер) Оуенс  - вокалист групп "Judas Priest" - на совместном  выступлении  2014
        .bio-img-block
-        img(src="img/karina.jpg" alt="").bio-img
-        img(src="img/slava15.jpg" alt="").bio-img
+        img(src="img/karinaMerged.png" alt="").bio-img.spec
         .bio-description Карина Плай
        .bio-img-block
         img(src="img/slava16.jpg" alt).bio-img
@@ -90,6 +94,9 @@ html(lang='eng')
     
  
   script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js")
-  script(src="scripts/jquery.tubular.1.0.js")
-  script(src="scripts/backgroundVid.js")
-  script(src="scripts/nav/nav.js") 
+  script(src="scripts/libs/bgPlug.js")
+  script(src="scripts/common/bgVidOptions.js")
+  script(src="scripts/nav/nav.js")
+  script(src="scripts/common/preloader.js")
+  script(src="scripts/libs/anime.min.js")
+  script(src="scripts/pages/bio/bioAnimeAnimations.js")

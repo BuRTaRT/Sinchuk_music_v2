@@ -7,8 +7,17 @@
     min-height: 100vh;
     color: white;
     padding-bottom: 100px;
+    overflow-x: hidden;
 }
-
+.music-header {
+    text-align: center;
+    color: white;
+    text-shadow: rgba(255, 255, 255, 0.6) 1px 1px 1px,
+    rgba(0, 0, 0, 0.6) -1px -1px 1px;
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 0;
+}
 .header-text {
     font-size: 40px;
     text-align: center;

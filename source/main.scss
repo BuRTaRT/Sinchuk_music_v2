@@ -1,15 +1,17 @@
 @import "../node_modules/normalize.scss/normalize";
 @import "../node_modules/font-awesome/scss/font-awesome";
 
-
+@import "styles/global/globalStyles";
 
 @import "styles/common/nav";
+@import "styles/common/preloader";
 
 @import "styles/pages/index";
 @import "styles/pages/music";
 @import "styles/pages/video";
 @import "styles/pages/concerts";
 @import "styles/pages/bio";
+@import "styles/pages/contacts";
 @import "styles/sections/albums";
 
     
