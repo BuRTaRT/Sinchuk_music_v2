@@ -1,52 +1,60 @@
 html {
-    background-color: black;
+  background-color: black;
 }
 
 .index-body {
-    background-color: transparent;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-    color: white;
+  background-color: transparent;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  color: white;
 }
 
 .wrapper {
-    height: 100%;
+  height: 100%;
 }
 
-
 .index-btn {
-    position: absolute;
-    display: block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-66px, 10px);
-    color: white;
-    border: 2px solid white;
-    padding: 12px 45px;
-    cursor: pointer;
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-66px, 10px);
+  color: white;
+  border: 2px solid white;
+  padding: 12px 45px;
+  cursor: pointer;
 }
 
 .index-title {
+  margin: 0px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-133px, -40px);
+  font-size: 40px;
+  white-space: nowrap;
+}
+@media (max-width: 340px) {
+  .index-title {
     margin: 0px;
     color: white;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-133px,-40px);
+    transform: translate(-133px, -40px);
     font-size: 40px;
     white-space: nowrap;
+  }
 }
+@media (min-width: 768px) {
+  .index-title {
+    font-size: 60px;
+    transform: translate(-203.5px, -70.5px);
+  }
 
-@media (min-width:768px) {
-    .index-title {
-        font-size: 60px;
-        transform: translate(-203.5px, -70.5px)
-    }
-
-    .index-btn {
-        display: block;
-        cursor: pointer;
-    }
+  .index-btn {
+    display: block;
+    cursor: pointer;
+  }
 }

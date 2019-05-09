@@ -15,7 +15,7 @@
   padding: 30px 30px;
 }
 .hor-line{
-  width: 300px;
+  width: 50%; 
   height: 1px;
   background-color: white;
   margin: 0 auto;
@@ -63,4 +63,37 @@ font-size: 22px;
   right: 0;
   bottom: 0;
   margin: auto;
+}
+@media (max-width: 340px){
+  .vid-container{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius:1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 25px;
+  }
+  .contacts-vid{
+    position: absolute;
+    height: 100%;
+    width: 200%;
+    top: 0;
+    left: -128px;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .vid-container p{
+    color: white;
+    position: absolute;
+    z-index: 500;
+    top: 92px;
+    left: 56px;
+  }.contacts-header{
+     font-size: 35px;
+     margin:0 auto;
+     text-align: center;
+     padding: 20px 20px;
+   }
 }
