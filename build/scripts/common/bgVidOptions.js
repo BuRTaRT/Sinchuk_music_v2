@@ -4,7 +4,7 @@ $(document).ready(function () {
         "width": 1280,
         "height": 720,
         "path": "../video/",
-        "filename": "bgVideo",
+        "filename": "BgVideo",
         "types": ["mp4"],
         "preload": true,
         "autoplay": true,

@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49469c26-92b5-4ed8-b44e-bc014db274d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/build/bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/bio.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/concerts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/concerts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/music.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/audio-scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/backgroundVid.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/jquery.tubular.1.0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/nav-gamburger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/video.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/bio.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/bio.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/concerts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/concerts.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/music.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/music.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/common/anim-burger.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/global/globalStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/global/globalStyles.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/pages/bio.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/pages/bio.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/pages/concerts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/pages/concerts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/pages/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/pages/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/pages/music.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/pages/music.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/pages/video.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/pages/video.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/sections/albums.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/albums.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/templates/music-album.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/templates/music-album.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/templates/music-album2.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/templates/music-album2.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/templates/music-album3.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/templates/music-album3.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/templates/music-album4.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/templates/music-album4.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/templates/music-album5.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/templates/music-album5.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/templates/nav.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/templates/nav.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/video.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/video.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/common/bgVidOptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/common/bgVidOptions.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -73,11 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/pages/contacts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="284">
               <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/scripts/common/bgVidOptions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -140,7 +118,6 @@
         <option value="$PROJECT_DIR$/build/scripts/common/preloader.js" />
         <option value="$PROJECT_DIR$/source/styles/pages/video.scss" />
         <option value="$PROJECT_DIR$/source/styles/pages/music.scss" />
-        <option value="$PROJECT_DIR$/build/scripts/common/bgVidOptions.js" />
         <option value="$PROJECT_DIR$/source/video.pug" />
         <option value="$PROJECT_DIR$/source/contacts.pug" />
         <option value="$PROJECT_DIR$/build/scripts/pages/concerts/concertsAnimeAnumations.js" />
@@ -153,6 +130,7 @@
         <option value="$PROJECT_DIR$/build/scripts/pages/bio/bioAnimeAnimations.js" />
         <option value="$PROJECT_DIR$/build/scripts/pages/concerts/concertsAnimeAnimations.js" />
         <option value="$PROJECT_DIR$/source/styles/pages/contacts.scss" />
+        <option value="$PROJECT_DIR$/build/scripts/common/bgVidOptions.js" />
       </list>
     </option>
   </component>
@@ -192,15 +170,7 @@
               <item name="Sinchuk_music_v2" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Sinchuk_music_v2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Sinchuk_music_v2" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="concerts" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sinchuk_music_v2" type="b2602c69:ProjectViewProjectNode" />
@@ -278,12 +248,12 @@
       <workItem from="1556367056880" duration="4223000" />
       <workItem from="1556621466408" duration="627000" />
       <workItem from="1557170252466" duration="26806000" />
-      <workItem from="1557282539305" duration="40710000" />
+      <workItem from="1557282539305" duration="41301000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72366000" />
+    <option name="totallyTimeSpent" value="72957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -535,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/scripts/common/bgVidOptions.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/templates/music-album.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -652,8 +615,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/pages/contacts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="284">
           <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scripts/common/bgVidOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
         </state>
       </provider>
     </entry>
