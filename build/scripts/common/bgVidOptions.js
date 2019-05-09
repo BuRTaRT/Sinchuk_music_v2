@@ -3,7 +3,7 @@ $(document).ready(function () {
         "align": "centerXY",
         "width": 1280,
         "height": 720,
-        "path": "../../video/",
+        "path": "video/",
         "filename": "BgVideo",
         "types": ["mp4"],
         "preload": true,
