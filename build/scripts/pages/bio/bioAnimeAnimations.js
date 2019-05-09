@@ -1,4 +1,4 @@
-$(window).ready(function() {
+$(window).load(function() {
     anime({
         targets: ".comment",
         translateX: [150, 0],

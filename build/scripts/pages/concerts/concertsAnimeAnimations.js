@@ -1,4 +1,4 @@
-$(window).ready(function() {
+$(window).load(function() {
     anime({
         targets: ".concerts-events",
         translateX: [700, 0],
