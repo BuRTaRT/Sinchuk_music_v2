@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49469c26-92b5-4ed8-b44e-bc014db274d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/contacts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/contacts.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/contacts.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/events.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/music.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/music.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/video.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/video.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/music.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+            <state relative-caret-position="216">
+              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -53,19 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/video.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="89" selection-start-line="89" selection-end-line="91" selection-end-column="47" />
+            <state relative-caret-position="242">
+              <caret line="92" column="3" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/contacts.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="201">
               <caret line="37" column="82" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
             </state>
           </provider>
@@ -94,15 +94,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/main.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -145,12 +136,12 @@
         <option value="$PROJECT_DIR$/build/scripts/pages/bio/bioAnimeAnimations.js" />
         <option value="$PROJECT_DIR$/build/scripts/pages/concerts/concertsAnimeAnimations.js" />
         <option value="$PROJECT_DIR$/source/styles/pages/contacts.scss" />
-        <option value="$PROJECT_DIR$/source/music.pug" />
         <option value="$PROJECT_DIR$/source/concerts.pug" />
         <option value="$PROJECT_DIR$/source/bio.pug" />
         <option value="$PROJECT_DIR$/build/scripts/common/bgVidOptions.js" />
-        <option value="$PROJECT_DIR$/source/video.pug" />
         <option value="$PROJECT_DIR$/source/contacts.pug" />
+        <option value="$PROJECT_DIR$/source/music.pug" />
+        <option value="$PROJECT_DIR$/source/video.pug" />
       </list>
     </option>
   </component>
@@ -255,18 +246,18 @@
       <workItem from="1556367056880" duration="4223000" />
       <workItem from="1556621466408" duration="627000" />
       <workItem from="1557170252466" duration="26806000" />
-      <workItem from="1557282539305" duration="45678000" />
+      <workItem from="1557282539305" duration="46409000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77334000" />
+    <option name="totallyTimeSpent" value="78065000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1532738" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1532738" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -281,7 +272,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49925596" weight="0.3289689" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50223213" side_tool="true" visible="true" weight="0.3420622" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49776787" visible="true" weight="0.3420622" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49776787" visible="true" weight="0.3420622" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -317,7 +308,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Desktop/Новая папка (2)/index3.html" />
     <entry file="file://$PROJECT_DIR$/source/templates/music-album3.pug">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -571,31 +561,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/pages/contacts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/scripts/pages/concerts/concertsAnimeAnimations.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/scripts/pages/bio/bioAnimeAnimations.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/music.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -620,17 +589,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/video.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="89" selection-start-line="89" selection-end-line="91" selection-end-column="47" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/build/events.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/source/contacts.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="201">
           <caret line="37" column="82" selection-start-line="37" selection-start-column="82" selection-end-line="37" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/pages/contacts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="47" column="19" selection-start-line="47" selection-start-column="19" selection-end-line="47" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/scripts/pages/concerts/concertsAnimeAnimations.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/music.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/video.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="92" column="3" selection-start-line="92" selection-start-column="3" selection-end-line="92" selection-end-column="3" />
         </state>
       </provider>
     </entry>
