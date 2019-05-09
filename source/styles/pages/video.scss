@@ -7,7 +7,6 @@
 .video-block {
   background-color: #181818;
   padding: 2% 6%;
-  padding-bottom: 7%;
 }
 
 .thumb-wrap {
@@ -107,6 +106,7 @@
 }
 .video-block {
   margin-bottom: 20px;
+  padding-bottom: 35px;
 }
 
 @media (max-width: 480px) {
@@ -116,6 +116,9 @@
     left: 25px;
     z-index: 1000;
     width: 50px;
+  }
+  .video-block{
+    padding-bottom: 10%;
   }
   .slick-arrow::before {
     font-family: Arial;

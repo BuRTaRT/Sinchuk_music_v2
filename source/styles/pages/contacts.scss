@@ -85,11 +85,13 @@ font-size: 22px;
     margin: auto;
   }
   .vid-container p{
+   white-space: nowrap;
     color: white;
     position: absolute;
     z-index: 500;
     top: 92px;
-    left: 56px;
+    left: 50%;
+    transform: translateX(-64px);
   }.contacts-header{
      font-size: 35px;
      margin:0 auto;

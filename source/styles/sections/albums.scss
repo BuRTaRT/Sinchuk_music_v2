@@ -129,7 +129,7 @@ i {
 .fa-twitter:hover {
   color: #1dcaff;
 }
-@media(max-width: 760px){
+@media(max-width: 350px){
   .img{
     object-fit: cover;
   }
@@ -137,15 +137,16 @@ i {
     object-fit: cover;
   }
 }
+
 @media(max-width: 992px){
   .img{
     object-fit: contain;
   }
   .img-container{
-    height: 400px;
+    height: 250px;
   }
   .img-container2{
-    height: 200px;
+    height: 250px;
   }
 }
 @media(min-width: 992px){

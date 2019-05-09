@@ -16,6 +16,7 @@ html {
 }
 
 .index-btn {
+  text-align: center;
   position: absolute;
   display: block;
   top: 50%;
@@ -33,28 +34,43 @@ html {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-133px, -40px);
   font-size: 40px;
   white-space: nowrap;
 }
-@media (max-width: 340px) {
+@media (max-width: 350px) {
   .index-title {
-    margin: 0px;
+    padding: 10px 0;
     color: white;
     position: absolute;
-    transform: translate(-133px, -40px);
     font-size: 40px;
     white-space: nowrap;
+    transform: translate(-77.5px, -80px);
+      text-align: center;
+  }
+  .index-btn {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-66px, 20px);
+    color: white;
+    border: 2px solid white;
+    padding: 12px 45px;
+    cursor: pointer;
   }
 }
 @media (min-width: 768px) {
   .index-title {
+    text-align: center;
     font-size: 60px;
-    transform: translate(-203.5px, -70.5px);
+    transform: translate(-116.5px, -150px);
   }
 
   .index-btn {
+    position: absolute;
     display: block;
     cursor: pointer;
+    left: 50%;
+    transform: translateX(-67px);
   }
 }
