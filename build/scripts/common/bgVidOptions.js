@@ -6,7 +6,7 @@ $(document).ready(function () {
         "path": "video/",
         "filename": "BgVideo2",
         "types": ["mp4"],
-        "preload": true,
+        "preload": false,
         "autoplay": true,
         "loop": true,
         "muted": true
