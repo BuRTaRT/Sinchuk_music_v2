@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49469c26-92b5-4ed8-b44e-bc014db274d3" name="Default Changelist" comment="" />
+    <list default="true" id="49469c26-92b5-4ed8-b44e-bc014db274d3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/build/bio.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/bio.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/concerts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/concerts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/contacts.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/contacts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/music.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/music.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/video.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/templates/nav.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/templates/nav.pug" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -14,28 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/scripts/common/globalAnimeAnimations.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/pages/music.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/video.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1710">
-              <caret line="95" column="56" selection-start-line="95" selection-start-column="56" selection-end-line="95" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -58,11 +48,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build/scripts/common/bgVidOptions.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
               <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/styles/common/nav.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" selection-start-line="3" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/templates/nav.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="89">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -127,7 +135,6 @@
         <option value="$PROJECT_DIR$/source/styles/pages/bio.scss" />
         <option value="$PROJECT_DIR$/build/scripts/pages/concerts/concertsAnimeAnumations.js" />
         <option value="$PROJECT_DIR$/source/main.scss" />
-        <option value="$PROJECT_DIR$/source/templates/nav.pug" />
         <option value="$PROJECT_DIR$/build/scripts/common/preloader.js" />
         <option value="$PROJECT_DIR$/build/scripts/pages/concerts/concertsAnimeAnimations.js" />
         <option value="$PROJECT_DIR$/build/scripts/pages/audio/audioPageScripts.js" />
@@ -156,6 +163,7 @@
         <option value="$PROJECT_DIR$/source/music.pug" />
         <option value="$PROJECT_DIR$/source/styles/global/globalStyles.scss" />
         <option value="$PROJECT_DIR$/build/scripts/common/bgVidOptions.js" />
+        <option value="$PROJECT_DIR$/source/templates/nav.pug" />
       </list>
     </option>
   </component>
@@ -199,6 +207,13 @@
             <path>
               <item name="Sinchuk_music_v2" type="b2602c69:ProjectViewProjectNode" />
               <item name="Sinchuk_music_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="nav" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sinchuk_music_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sinchuk_music_v2" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -206,6 +221,13 @@
               <item name="Sinchuk_music_v2" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sinchuk_music_v2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sinchuk_music_v2" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Sinchuk_music_v2" type="b2602c69:ProjectViewProjectNode" />
@@ -275,15 +297,16 @@
       <workItem from="1557170252466" duration="26806000" />
       <workItem from="1557282539305" duration="87912000" />
       <workItem from="1557464062155" duration="142000" />
-      <workItem from="1557464416899" duration="3991000" />
+      <workItem from="1557464416899" duration="4306000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123701000" />
+    <option name="totallyTimeSpent" value="124016000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20982143" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -454,13 +477,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build/events.html" />
-    <entry file="file://$PROJECT_DIR$/source/templates/nav.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build/scripts/common/preloader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -493,13 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/common/nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="3" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -684,6 +693,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/common/nav.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" selection-start-line="3" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/templates/nav.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
         </state>
       </provider>
     </entry>
