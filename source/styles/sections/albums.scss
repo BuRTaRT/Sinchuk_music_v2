@@ -8,6 +8,7 @@
 .subscr-container {
   display: flex;
   justify-content: space-between;
+  margin: 5px 0px;
 }
 
 .songs-scroll {
@@ -19,8 +20,8 @@
   text-align: left;
 }
 .img-container {
-   height: 500px;
- }
+  height: 500px;
+}
 
 .img {
   object-fit: cover;
@@ -31,10 +32,25 @@
 
 .social-share {
   display: flex;
-  font-size: 22px;
+  font-size: 18px;
   justify-content: space-around;
+  position: relative;
+  cursor: pointer;
 }
-
+.subscr-text {
+ text-align: right;
+}
+.icon-container {
+  position: absolute;
+  display: flex;
+  display: none;
+  flex-direction: row;
+  font-size: 30px;
+  top: -10px;
+}
+.icon-soc {
+  padding-right: 10px;
+}
 .song-name {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -107,7 +123,9 @@
   letter-spacing: 1px;
   cursor: pointer;
 }
-
+.song-list:hover{
+  color: #F0B000;
+}
 .num {
   font-size: 14px;
   margin-right: 10px;
@@ -121,39 +139,43 @@
   visibility: hidden;
 }
 .fa-vk:hover {
-  color: greenyellow;
+  color: #4c75a3;
 }
 i {
   cursor: pointer;
 }
 .fa-twitter:hover {
-  color: #1dcaff;
+  color: #00acee;
 }
-@media(max-width: 350px){
-  .img{
+@media (max-width: 350px) {
+  .img {
     object-fit: cover;
   }
-  .img{
+  .img {
     object-fit: cover;
+  }
+  .icon-container {
+
+    top: 0px;
   }
 }
 
-@media(max-width: 992px){
-  .img{
+@media (max-width: 992px) {
+  .img {
     object-fit: contain;
   }
-  .img-container{
+  .img-container {
     height: 250px;
   }
-  .img-container2{
+  .img-container2 {
     height: 250px;
   }
 }
-@media(min-width: 992px){
-  .img{
+@media (min-width: 992px) {
+  .img {
     object-fit: contain;
   }
-  .img-container2{
+  .img-container2 {
     height: 250px;
   }
 }

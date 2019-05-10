@@ -6,4 +6,11 @@ $(window).load(function() {
         easing: "easeOutQuart",
         duration: 1400
     });
+    anime({
+        targets: ".wiki-link",
+        opacity:[0,1],
+        scale:[0,1],
+        easing: "linear",
+        duration: 700
+    });
 });

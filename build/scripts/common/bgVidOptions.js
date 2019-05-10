@@ -5,7 +5,7 @@ $(document).ready(function () {
         "height": 720,
         "path": "video/",
         "filename": "BgVideo",
-        "types": ["webm"],
+        "types": ["mp4"],
         "preload": true,
         "autoplay": true,
         "loop": true,
