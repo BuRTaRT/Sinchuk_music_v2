@@ -1,5 +1,5 @@
 var objectArr = [];
-var songArr = ["music/heart/song0.mp3", "music/Coverman/song0.mp3", "music/Slava Sinchuk/song0.mp3", "music/A history/song0.mp3", "music/Tell me why/song0.mp3"];
+var songArr = ["music/heart/song0.mp3", "music/Coverman/song0.mp3", "music/SlavaSinchuk/song0.mp3", "music/A history/song0.mp3", "music/Tell me why/song0.mp3"];
 
 for (var i = 1; i <= 5; i++) {
     var obj = {
