@@ -7,7 +7,6 @@
     <list default="true" id="49469c26-92b5-4ed8-b44e-bc014db274d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/scripts/pages/audio/audioPageScripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/pages/audio/audioPageScripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/video.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/video.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +239,7 @@
       <workItem from="1557464416899" duration="5727000" />
       <workItem from="1557527555706" duration="1581000" />
       <workItem from="1573478967160" duration="31000" />
-      <workItem from="1729343363471" duration="2536000" />
+      <workItem from="1729343363471" duration="3053000" />
     </task>
     <servers />
   </component>

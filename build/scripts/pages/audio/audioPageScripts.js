@@ -83,7 +83,6 @@ function AudioObjConsctructor(obj) {
         }
     }
 }
-
 AudioObjConsctructor.prototype.watcherPause = function () {
     for (let item of objectArr) {
         if (item !== this) item.pause();
@@ -129,8 +128,8 @@ AudioObjConsctructor.prototype.btnToggler = function () {
     if (this.btnPlay.classList.contains("fa-pause")) this.play();
     if (this.btnPlay.classList.contains("fa-play")) this.pause();
 
-    const btns = document.querySelectorAll(".buttons");
-    for (let btn of btns) {
+    const buttons = document.querySelectorAll(".buttons");
+    for (let btn of buttons) {
         if (btn !== this.btnPlay) {
             btn.classList.remove("fa-pause");
             btn.classList.add("fa-play");
