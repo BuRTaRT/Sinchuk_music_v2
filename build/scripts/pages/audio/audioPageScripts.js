@@ -1,8 +1,8 @@
-var objectArr = [];
-var songArr = ["music/heart/song0.mp3", "music/Coverman/song0.mp3", "music/SlavaSinchuk/song0.mp3", "music/A history/song0.mp3", "music/Tell me why/song0.mp3"];
+const objectArr = [];
+const songArr = ["music/heart/song0.mp3", "music/Coverman/song0.mp3", "music/SlavaSinchuk/song0.mp3", "music/A history/song0.mp3", "music/Tell me why/song0.mp3"];
 
-for (var i = 1; i <= 5; i++) {
-    var obj = {
+for (let i = 1; i <= 5; i++) {
+    const obj = {
         song: songArr[i - 1],
         progressline: document.querySelector("#progress-line" + i),
         progress: document.querySelector("#progress" + i),
@@ -18,19 +18,15 @@ for (var i = 1; i <= 5; i++) {
         songList: document.querySelectorAll(".song-list" + i)
     }
     objectArr.push(window["audioObj" + i] = new AudioObjConsctructor(obj));
-
-};
-
+}
 function AudioObjConsctructor(obj) {
-    var that = this;
-    var timer;
     this.audio = new Audio();
     this.audio.src = obj.song;
-    this.pause = function () {
-        that.audio.pause();
+    this.pause = () => {
+        this.audio.pause();
     }
-    this.play = function () {
-        that.audio.play();
+    this.play = () => {
+        this.audio.play();
     };
     this.progressline = obj.progressline;
     this.progress = obj.progress;
@@ -45,83 +41,78 @@ function AudioObjConsctructor(obj) {
     this.btnNext = obj.btnNext;
     this.songUL = obj.songUL;
 
-    this.btnPrev.onclick = function () {
-        that.watcherBtnPrevNext(-1);
-        that.watcherMinutesSecondsProgress();
-        that.btnClasslistRemoverAdder();
-        that.watcherPause();
+    this.btnPrev.onclick = () => {
+        this.watcherBtnPrevNext(-1);
+        this.watcherMinutesSecondsProgress();
+        this.btnClasslistRemoverAdder();
+        this.watcherPause();
     }
-    this.btnNext.onclick = function () {
-        that.watcherBtnPrevNext(1);
-        that.watcherMinutesSecondsProgress();
-        that.btnClasslistRemoverAdder();
-        that.watcherPause();
+    this.btnNext.onclick = () => {
+        this.watcherBtnPrevNext(1);
+        this.watcherMinutesSecondsProgress();
+        this.btnClasslistRemoverAdder();
+        this.watcherPause();
     }
-    this.progressline.onclick = function () {
-        that.watcherMinutesSecondsProgress();
+    this.progressline.onclick = () => {
+        this.watcherMinutesSecondsProgress();
     }
-    this.btnPlay.onclick = function () {
-        that.watcherMinutesSecondsProgress();
-        that.watcherPause();
-        that.btnToggler();
+    this.btnPlay.onclick = ()=> {
+        this.watcherMinutesSecondsProgress();
+        this.watcherPause();
+        this.btnToggler();
 
     };
-    this.songUL.onclick = function (e) {
-        that.watcherMinutesSecondsProgress();
-        that.watcherPause();
-        var target = e.target;
-        while (target != that) {
-            if (target.tagName == "LI") {
-                that.btnToggler();
-                that.btnClasslistRemoverAdder();
-                that.songName.textContent = target.dataset.songName;
-                that.duration.innerHTML = target.dataset.songLength;
-                that.audio.src = target.dataset.song;
+    this.songUL.onclick =(e)=> {
+        this.watcherMinutesSecondsProgress();
+        this.watcherPause();
+        let target = e.target;
+        while (target !== this) {
+            if (target.tagName === "LI") {
+                this.btnToggler();
+                this.btnClasslistRemoverAdder();
+                this.songName.textContent = target.dataset.songName;
+                this.duration.innerHTML = target.dataset.songLength;
+                this.audio.src = target.dataset.song;
                 if (target.dataset.img) {
-                    that.imgBlock.src = target.dataset.img;
-                };
-                that.play();
-
+                    this.imgBlock.src = target.dataset.img;
+                }
+                this.play();
                 break;
             }
             target = target.parentNode;
         }
     }
-
-
 }
 
-
 AudioObjConsctructor.prototype.watcherPause = function () {
-    for (var i = 0; i < objectArr.length; i++) {
-        if (objectArr[i] != this) objectArr[i].pause();
+    for (let item of objectArr) {
+        if (item !== this) item.pause();
     }
 }
 AudioObjConsctructor.prototype.watcherMinutesSecondsProgress = function () {
-    var progressLineWidth = parseInt(getComputedStyle(this.progressline).width);
+    const progressLineWidth = parseInt(getComputedStyle(this.progressline).width);
     clearInterval(this.timer);
-    var that = this;
-    this.timer = setInterval(function () {
-        var length = that.duration.innerHTML;
-        var arr = length.split(":");
+    this.timer = setInterval(()=> {
+        let length = this.duration.innerHTML;
+        const arr = length.split(":");
         length = +arr[0] * 60 + +arr[1];
-        var x = progressLineWidth / length;
-        that.progress.style.width = (that.audio.currentTime * x) + "px";
-        that.progressline.onclick = function (e) {
-            that.audio.currentTime = e.offsetX / x;
+        const x = progressLineWidth / length;
+        this.progress.style.width = (this.audio.currentTime * x) + "px";
+        this.progressline.onclick = (e)=> {
+            this.audio.currentTime = e.offsetX / x;
         }
-        that.minutes.textContent = "0" + Math.floor(that.audio.currentTime / 60);
-        if (that.seconds.textContent <= 9) {
-            that.seconds.textContent = "0" + Math.floor(that.audio.currentTime % 60);
+        this.minutes.textContent = "0" + Math.floor(this.audio.currentTime / 60);
+        if (this.seconds.textContent <= 9) {
+            this.seconds.textContent = "0" + Math.floor(this.audio.currentTime % 60);
         }
-        if (that.seconds.textContent > 9) {
-            that.seconds.textContent = Math.floor(that.audio.currentTime % 60);
+        if (this.seconds.textContent > 9) {
+            this.seconds.textContent = Math.floor(this.audio.currentTime % 60);
         }
     }, 100)
 }
 AudioObjConsctructor.prototype.watcherBtnPrevNext = function (oper) {
-    for (var i = 0; i < this.songList.length; i++) {
-        if (this.songName.textContent == this.songList[i].dataset.songName) {
+    for (let i = 0; i < this.songList.length; i++) {
+        if (this.songName.textContent === this.songList[i].dataset.songName) {
             this.audio.src = this.songList[i + oper].dataset.song;
             this.songName.textContent = this.songList[i + oper].dataset.songName;
             this.audio.play();
@@ -138,11 +129,11 @@ AudioObjConsctructor.prototype.btnToggler = function () {
     if (this.btnPlay.classList.contains("fa-pause")) this.play();
     if (this.btnPlay.classList.contains("fa-play")) this.pause();
 
-    var btns = document.querySelectorAll(".buttons");
-    for (var i = 0; i < btns.length; i++) {
-        if (btns[i] != this.btnPlay) {
-            btns[i].classList.remove("fa-pause");
-            btns[i].classList.add("fa-play");
+    const btns = document.querySelectorAll(".buttons");
+    for (let btn of btns) {
+        if (btn !== this.btnPlay) {
+            btn.classList.remove("fa-pause");
+            btn.classList.add("fa-play");
         }
     }
 }
